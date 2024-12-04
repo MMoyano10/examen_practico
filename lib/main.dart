@@ -12,18 +12,12 @@ class MiAplicacion extends StatelessWidget {
     return MaterialApp(
       title: 'Distancia Euclidiana',
       theme: ThemeData(
-
         primarySwatch: Colors.teal,
-
-
         colorScheme: ColorScheme.fromSwatch().copyWith(
           primary: Colors.teal,
           onPrimary: Colors.white,
         ),
-
-
         visualDensity: VisualDensity.adaptivePlatformDensity,
-
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.teal,
           foregroundColor: Colors.white,
@@ -36,3 +30,4 @@ class MiAplicacion extends StatelessWidget {
       },
     );
   }
+}
